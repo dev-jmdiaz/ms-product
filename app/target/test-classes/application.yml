@@ -1,0 +1,46 @@
+product:
+  url: ${URL_PRODUCT:http://localhost:3001/product}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics, resilience4j.circuitbreakers
+  endpoint:
+    health:
+      group:
+        custom:
+          show-components: always
+          show-details: always
+spring:
+  cache:
+    time: 60
+    maxSize: 1000
+    cache-names: products
+    caffeine:
+      spec: maximumSize=500,expireAfterAccess=10m
+  main:
+    web-application-type: reactive
+
+
+resilience4j:
+  circuitbreaker:
+    timeoutDuration: 3
+    instances:
+      productDetails:
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 5
+        failureRateThreshold: 50
+        waitDurationInOpenState: 10s
+        permittedNumberOfCallsInHalfOpenState: 2
+        slowCallRateThreshold: 50
+        slowCallDurationThreshold: 2s
+        registerHealthIndicator: true
+  metrics:
+    enable: true
+
+
+
+
+
+

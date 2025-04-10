@@ -1,0 +1,17 @@
+com/inditex/application/mapper/ProductDtoMapperImpl.class
+com/inditex/application/dto/ErrorResponseDTO.class
+com/inditex/infrastructure/controller/ProductApi.class
+com/inditex/infrastructure/controller/ProductController.class
+com/inditex/infrastructure/adapter/webclient/ProductServiceClient$1.class
+com/inditex/infrastructure/exception/GlobalExceptionHandler.class
+com/inditex/domain/exception/NotFoundException.class
+com/inditex/domain/port/out/IProductServiceClient.class
+com/inditex/infrastructure/config/WebConfig.class
+com/inditex/infrastructure/model/ProductResponse.class
+com/inditex/application/caseuse/GetProductDetailsUseCase.class
+com/inditex/application/service/ProductService.class
+com/inditex/InditexApp.class
+com/inditex/infrastructure/config/CacheProvider.class
+com/inditex/infrastructure/adapter/webclient/ProductServiceClient.class
+com/inditex/application/mapper/ProductDtoMapper.class
+com/inditex/application/dto/ProductDetailDTO.class

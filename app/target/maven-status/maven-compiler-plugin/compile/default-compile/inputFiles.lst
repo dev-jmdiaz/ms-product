@@ -1,0 +1,15 @@
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/InditexApp.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/application/caseuse/GetProductDetailsUseCase.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/application/mapper/ProductDtoMapper.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/application/service/ProductService.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/domain/exception/NotFoundException.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/domain/port/out/IProductServiceClient.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/infrastructure/adapter/webclient/ProductServiceClient.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/infrastructure/config/CacheProvider.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/infrastructure/config/WebConfig.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/infrastructure/controller/ProductController.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/infrastructure/exception/GlobalExceptionHandler.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/src/main/java/com/inditex/infrastructure/model/ProductResponse.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/target/generated-sources/openapi/src/main/java/com/inditex/application/dto/ErrorResponseDTO.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/target/generated-sources/openapi/src/main/java/com/inditex/application/dto/ProductDetailDTO.java
+/Users/macbookpro/Documents/repositorio_jmd/PRUEBA-INDITEX/backendDevTest/app/target/generated-sources/openapi/src/main/java/com/inditex/infrastructure/controller/ProductApi.java

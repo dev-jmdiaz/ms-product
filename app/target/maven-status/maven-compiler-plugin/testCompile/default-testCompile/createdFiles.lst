@@ -1,0 +1,3 @@
+com/inditex/infrastructure/controller/ProductControllerTest.class
+com/inditex/application/service/ProductServiceTest.class
+com/inditex/infrastructure/adapter/webclient/ProductServiceClientTest.class
